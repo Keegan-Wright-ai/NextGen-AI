@@ -1,0 +1,1031 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header.hero {
+    background: linear-gradient(to right, #000428, #004e92);
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  header.hero h1 {
+    font-size: 2.5rem;
+    color: #00aaff;
+  }
+  
+  header.hero p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background: #00aaff;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #005f7f;
+  }
+  
+  section.features {
+    background: #111;
+    padding: 40px 20px;
+  }
+  
+  section.features h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #00aaff;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+    color: #00aaff;
+  }
+  
+  .card p {
+    font-size: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #000428;
+    margin-top: 20px;
+  }
+  
+
+
+
+
+
+  /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Hero Section */
+  header.hero {
+    background: linear-gradient(to right, #000428, #004e92);
+    text-align: center;
+    padding: 100px 20px;
+    border-bottom: 2px solid #00aaff;
+    position: relative;
+  }
+  
+  header.hero h1 {
+    font-size: 3rem;
+    color: #00aaff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  header.hero p {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background: #00aaff;
+    color: #000;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+  }
+  
+  .cta-button:hover {
+    background: #005f7f;
+    transform: scale(1.1);
+  }
+  
+  /* Feature Section */
+  section.features {
+    background: #111;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  section.features h2 {
+    font-size: 2.5rem;
+    color: #00aaff;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #222;
+    padding: 40px 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex: 1;
+    max-width: 320px;
+    margin-bottom: 20px;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+  }
+  
+  .card h3 {
+    margin-bottom: 20px;
+    color: #00aaff;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+  }
+  
+  .card p {
+    font-size: 1.1rem;
+    color: #bbb;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 40px 20px;
+    background: #000428;
+    color: #fff;
+    margin-top: 40px;
+    border-top: 2px solid #00aaff;
+  }
+  
+  footer p {
+    font-size: 1.1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header.hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    header.hero p {
+      font-size: 1.2rem;
+    }
+  
+    .feature-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      max-width: 100%;
+    }
+  }
+  
+
+
+
+  /* Hero Section Styling */
+header.hero {
+  background: linear-gradient(to bottom right, #000, #001f3f); /* Black-to-dark-blue gradient */
+  color: #fff; /* White text for contrast */
+  text-align: center;
+  padding: 100px 20px;
+  position: relative;
+}
+
+header.hero .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header.hero .hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #00bfff; /* Bright blue for emphasis */
+}
+
+header.hero .hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #ddd; /* Softer white for the subtitle */
+}
+
+/* Navbar Styling (reuse from earlier) */
+nav.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+nav.navbar ul li {
+  list-style: none;
+}
+
+nav.navbar ul li a {
+  font-size: 1rem;
+  color: #00bfff; /* Bright blue text */
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+nav.navbar ul li a:hover {
+  background-color: #00bfff; /* Blue background on hover */
+  color: #000; /* Black text on hover */
+  border-color: #00bfff; /* Add a border */
+}
+
+/* Call-to-Action Button */
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #00bfff;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #007acc; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarges the button */
+}
+
+
+
+
+
+/* Services Section */
+.services-section {
+  padding: 50px 20px;
+  background-color: #111; /* Dark background */
+  color: #fff;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 2.5rem;
+  color: #00bfff; /* Bright blue */
+  margin-bottom: 20px;
+}
+
+.services-section p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #ddd;
+}
+
+/* Services Grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background-color: #222; /* Slightly lighter background for contrast */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  color: #00bfff;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.service-card:hover {
+  transform: translateY(-10px); /* Lift effect */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+
+
+/* About Section */
+.about-section {
+  padding: 50px 20px;
+  background-color: #111; /* Dark background */
+  color: #fff;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  color: #00bfff; /* Bright blue */
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #ddd;
+}
+
+/* Team Grid */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.team-card {
+  background-color: #222; /* Slightly lighter background for contrast */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card h3 {
+  font-size: 1.5rem;
+  color: #00bfff;
+  margin-bottom: 5px;
+}
+
+.team-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.team-card .avatar {
+  width: 100px;
+  height: 100px;
+  background-color: #444; /* Placeholder color for avatar */
+  border-radius: 50%;
+  margin: 0 auto 15px;
+}
+
+.team-card:hover {
+  transform: translateY(-10px); /* Lift effect */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+/* Contact Section */
+.contact-section {
+  padding: 50px 20px;
+  background-color: #111; /* Dark background */
+  color: #fff;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  color: #00bfff; /* Bright blue */
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #ddd;
+}
+
+/* Contact Form */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #222;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #00bfff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0099cc;
+}
+
+/* Contact Info */
+.contact-info {
+  margin-top: 40px;
+  font-size: 1.2rem;
+}
+
+.contact-info h3 {
+  font-size: 1.8rem;
+  color: #00bfff;
+}
+
+.contact-info p {
+  color: #ddd;
+}
+
+
+
+
+/* Hero Section with background image */
+.hero {
+  background-image: url('images/ai-cover.jpg'); /* Path to your AI image */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+
+
+.hero {
+  background-image: url('images/ai-cover.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Dark overlay */
+  z-index: 0;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Ensures the image is behind the text */
+}
+
+
+
+
+
+/* Hero Section with background image */
+.hero {
+  background-image: url('images/ai-cover.jpg'); /* Path to your AI image */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1; /* Ensures text is in front of the image */
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  z-index: 2;
+  position: relative;
+}
+
+/* Navbar in front of the image */
+.navbar {
+  position: relative;
+  z-index: 2; /* Keeps the navbar on top of the background image */
+}
+
+/* Optional: Add a semi-transparent overlay to improve text visibility */
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Dark overlay */
+  z-index: 0; /* Keeps the overlay behind the text */
+}
+
+
+
+.hero {
+  background-image: url('images/ai-cover.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+  height: 500px; /* Ensure there's enough height for the image */
+}
+
+
+
+
+
+
+
+
+
+.hero {
+  background-image: url('images/ai-cover.jpg'); /* Ensure the path is correct */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+  position: relative;
+  height: 500px; /* Ensure there's enough height */
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1; /* Ensures text is in front of the image */
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  z-index: 2;
+  position: relative;
+}
+
+
+
+
+
+
+
+/* About Us Section */
+.about-us {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 2.5rem;
+}
+
+.about-us p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Our Services Section */
+.services {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+}
+
+.service-item {
+  margin-bottom: 30px;
+}
+
+.service-item h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 1.2rem;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-size: 2.5rem;
+}
+
+.why-choose-us ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.why-choose-us li {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+}
+
+.testimonial-item {
+  margin-bottom: 30px;
+}
+
+.testimonial-item p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Call to Action Section */
+.cta {
+  padding: 50px 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 2.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #00bfff;
+  padding: 15px 30px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #00bfff;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+footer .social-media a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .social-media a:hover {
+  color: #ff6600;
+}
+
+
+
+
+
+
+
+
+/* Why Choose Us Section */
+.why-choose-us {
+  padding: 50px 20px;
+  background-color: #111; /* Dark background to match theme */
+  color: #fff; /* White text for contrast */
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.why-choose-us ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.why-choose-us li {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 50px 20px;
+  background-color: #222; /* Dark background to match theme */
+  color: #fff; /* White text for contrast */
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.testimonial-item {
+  margin-bottom: 30px;
+}
+
+.testimonial-item p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Optional: Add a divider between sections */
+.testimonials, .why-choose-us {
+  border-top: 2px solid #ff6600; /* Optional divider to separate sections */
+}
+
+
+
+/* Why Choose Us Section */
+.why-choose-us {
+  padding: 50px 20px;
+  background-color: #1a1a1a; /* Dark background to match the theme */
+  color: #fff; /* White text for contrast */
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #00bfff; /* Light blue color for the header */
+}
+
+.why-choose-us ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.why-choose-us li {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #fff; /* White text for better readability */
+}
+
+.why-choose-us li strong {
+  color: #ff6600; /* Orange for the strong text (key points) */
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 50px 20px;
+  background-color: #1a1a1a; /* Dark background to match the theme */
+  color: #fff; /* White text for contrast */
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #00bfff; /* Light blue for the header */
+}
+
+.testimonial-item {
+  margin-bottom: 30px;
+}
+
+.testimonial-item p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #fff; /* White text for better readability */
+}
+
+/* Optional: Add a divider between sections */
+.testimonials, .why-choose-us {
+  border-top: 2px solid #ff6600; /* Orange divider to match the theme */
+}
+
+
+
+
+/* Why Choose Us Section */
+.why-choose-us {
+  padding: 50px 20px;
+  background-color: #1a1a1a; /* Dark background to match the theme */
+  color: #fff; /* White text for contrast */
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #00bfff; /* Light blue color for the header */
+}
+
+.why-choose-us ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.why-choose-us li {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #fff; /* White text for better readability */
+}
+
+.why-choose-us li strong {
+  color: #00bfff; /* Blue for the strong text (key points) */
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 50px 20px;
+  background-color: #1a1a1a; /* Dark background to match the theme */
+  color: #fff; /* White text for contrast */
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #00bfff; /* Light blue for the header */
+}
+
+.testimonial-item {
+  margin-bottom: 30px;
+}
+
+.testimonial-item p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #fff; /* White text for better readability */
+}
+
+/* Optional: Add a divider between sections */
+.testimonials, .why-choose-us {
+  border-top: 2px solid #00bfff; /* Blue divider to match the theme */
+}
+
+
+
+
+/* Button Styles */
+button, .btn {
+  background-color: #00bfff; /* Blue background */
+  color: #fff; /* White text */
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #008cba; /* Darker blue on hover */
+}
+
+
+
+
+/* Contact Details */
+.contact-details {
+  margin-top: 50px;
+  padding: 30px 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.contact-details h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #00bfff;
+}
+
+.contact-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-details li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
